@@ -2,9 +2,9 @@ const fs = require('fs');
 const chalk = require('chalk');
 
 /*
-	* Create By Naze
-	* Follow https://github.com/nazedev
-	* Whatsapp : wa.me/6282113821188
+	* Create By Majnon
+	* Follow instagram.com/majnon._.98
+	* Whatsapp : https://whatsapp.com/channel/0029VaiJnhbD38CbP5YcSK0K
 */
 
 //~~~~~~~~~~~~< GLOBAL SETTINGS >~~~~~~~~~~~~\\
@@ -17,22 +17,22 @@ global.listv = ['•','●','■','✿','▲','➩','➢','➣','➤','✦','✧
 global.tempatDB = 'database.json'
 
 global.fake = {
-	anonim: 'https://telegra.ph/file/95670d63378f7f4210f03.png',
-	thumbnailUrl: 'https://telegra.ph/file/fe4843a1261fc414542c4.jpg',
+	anonim: 'https://telegra.ph/file/41d94a398196d36958834.jpg',
+	thumbnailUrl: 'https://telegra.ph/file/41d94a398196d36958834.jpg',
 	thumbnail: fs.readFileSync('./src/media/naze.png'),
 	docs: fs.readFileSync('./src/media/fake.pdf'),
 	listfakedocs: ['application/vnd.openxmlformats-officedocument.spreadsheetml.sheet','application/vnd.openxmlformats-officedocument.presentationml.presentation','application/vnd.openxmlformats-officedocument.wordprocessingml.document','application/pdf'],
 }
 
 global.my = {
-	yt: 'https://youtube.com/c/Nazedev',
-	gh: 'https://github.com/nazedev',
-	gc: 'https://chat.whatsapp.com/Hx9vcBVhbc04KLVGPFtH2R',
+	yt: 'https://whatsapp.com/channel/0029VaiJnhbD38CbP5YcSK0K',
+	gh: 'https://whatsapp.com/channel/0029VaiJnhbD38CbP5YcSK0K',
+	gc: 'https://whatsapp.com/channel/0029VaiJnhbD38CbP5YcSK0K',
 	ch: '120363250409960161@newsletter',
 }
 
 global.limit = {
-	free: 100,
+	free: 70,
 	premium: 999,
 	vip: 'VIP'
 }
@@ -44,12 +44,12 @@ global.uang = {
 }
 
 global.mess = {
-	owner: 'Fitur Khusus Owner!',
-	admin: 'Fitur Khusus Admin!',
-	botAdmin: 'Bot Bukan Admin!',
-	group: 'Gunakan Di Group!',
-	private: 'Gunakan Di Privat Chat!',
-	prem: 'Khusus User Premium!',
+	owner: 'Just for ayoub and majnon!',
+	admin: 'Just for admin Admin!',
+	botAdmin: 'I am not admin Admin!',
+	group: 'Just use in groups Group!',
+	private: 'Just in private Chat!',
+	prem: 'you need to buy Premium!',
 	wait: 'Loading...',
 	error: 'Error!',
 	done: 'Done'
